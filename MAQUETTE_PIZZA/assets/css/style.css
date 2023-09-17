@@ -279,8 +279,9 @@ display: flex;
 justify-content: center;
 align-items: normal;
 }
-#the-chef{
-  
+#the-chef h3,h4{
+  color: antiquewhite;
+  background-color: rgb(116, 50, 50);
 }
 #contact{
 background-color: #5c6663;
