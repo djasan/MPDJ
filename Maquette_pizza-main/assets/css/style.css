@@ -111,8 +111,7 @@ main p {
   font-size: 20px;
   color: rgb(29, 27, 26);
   background-color: #f1e8e8;
-  text-shadow: 3px 3px 0px #0e0d0d;
-  box-shadow: 6px 6px 0px #000000;
+ 
   text-align: justify;
   margin: right 50px;
   margin: left 50px;
@@ -168,7 +167,7 @@ main nav {
 
 .petitsenfants2 {
   background-color: crimson;
-  border: 0.2px solid hsl(10, 73%, 49%);
+
   background-size: 100% 500%;
   font-size: 25px;
   width: 100px;
@@ -177,7 +176,7 @@ main nav {
 }
 .petitsenfants3 {
   background-color: #0c0c0c;
-  border: 0.2px solid hwb(0 11% 89%);
+ 
   background-size: 100% 500%;
   font-size: 25px;
 
@@ -185,7 +184,7 @@ main nav {
 
 .petitsenfants4 {
   background-color: #0c0c0c;
-  border: 0.2px solid hwb(0 11% 89%);
+
   background-size: 100% 500%;
   font-size: 25px;
 
