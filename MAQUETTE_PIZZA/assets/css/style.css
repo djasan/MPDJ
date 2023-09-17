@@ -136,9 +136,6 @@ header h2 {
   margin-bottom: 20px;
 }
 
-.chef {
-  font-size: 50px;
-}
 
 #onepage-restaurant {
   background-image: url(../img/onepage_restaurant.jpg);
@@ -147,7 +144,7 @@ header h2 {
   background-size: 300px;
   height: 40vh;
   background-color: rgb(116, 50, 50);
-top: 100px;
+  top: 100px;
 }
 
 
@@ -264,18 +261,12 @@ main nav {
 
 }
 
-#tarifs p,
-h4 {
 
-  color: hsl(163, 78%, 2%);
-  background-color: #ebe6e5;
-
-
-}
 
 .tarifs p,
 h4 {
   background-color: white;
+  color: hsl(163, 78%, 2%);
 
 
 
@@ -324,8 +315,9 @@ h6 {
 
 
 }
-.the-chef span{
-  font-weight:bolder;
+
+.the-chef span {
+  font-weight: bolder;
 }
 
 
