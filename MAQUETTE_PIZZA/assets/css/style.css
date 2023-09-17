@@ -235,12 +235,16 @@ main nav {
   font-size: 25px;
   padding: 10px;
 }
+#about{
+  color: antiquewhite;
+  background-color: rgb(116, 50, 50);
+  font-size: 50px;
+}
 
-
-#about {
+#about p {
   text-align: center;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 25px;
   width: 100vw;
   background-color: rgb(116, 50, 50);
   height: 200px;
@@ -250,11 +254,23 @@ main nav {
 
 }
 #menu p,h3,h4{
-  background-color: hsl(0, 26%, 96%);
-color: #0e0d0d;
+  background-color: white;
+color: hsl(0, 4%, 5%);
+font-size: 25px;
 }
+#menu p,h4{
+text-align: left;
 
 
+}
+#menu h4{
+  color: #b3b8b8c0;
+}
+#menu h3{
+text-align: right;
+background-color: #0e0d0d00;
+color: antiquewhite;
+}
 #enfant1 {
   padding-bottom: 100px;
   padding-top: 100px;
