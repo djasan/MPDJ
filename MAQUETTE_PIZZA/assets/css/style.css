@@ -239,10 +239,11 @@ main nav {
   color: antiquewhite;
   background-color: rgb(116, 50, 50);
   font-size: 50px;
+  padding: bottom 100px; ;
 }
 
 #about p {
-  text-align: center;
+  text-align: justify;
   font-weight: 900;
   font-size: 25px;
   width: 100vw;
@@ -250,7 +251,7 @@ main nav {
   height: 200px;
   color: antiquewhite(250, 235, 15);
   line-height: 0.8em;
-  padding-top: 120px;
+  padding-top: 0px;
 
 }
 #menu p,h3,h4{
@@ -278,7 +279,9 @@ display: flex;
 justify-content: center;
 align-items: normal;
 }
-
+#the-chef{
+  
+}
 #contact{
 background-color: #5c6663;
 
