@@ -37,6 +37,7 @@ header nav {
   height: 8vh;
   top: 0;
 }
+
 header {
   display: flex;
   flex-direction: column;
@@ -50,6 +51,7 @@ header {
   height: 57vh;
   width: 100vw;
 }
+
 /* Style du header avec l'image de pizza */
 #header {
   display: flex;
@@ -57,7 +59,7 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
-margin: 0;
+  margin: 0;
 
 
   background-image: url(../img/pizza.jpg);
@@ -122,49 +124,49 @@ header h2 {
 
 
 /* Style de la section "The Chef" avec l'image du chef */
-#the-chef {
+#chef {
   background-image: url(../img/chef.jpg);
-  background-position: center;
+  background-color: rgb(116, 50, 50);
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh; 
+  background-size: 150px;
+  height: 75vh;
+  padding-left: 20px;
+  background-position: top right;
+  margin-bottom: 20px;
 }
-#onepage-restaurant{
+
+.chef {
+  font-size: 50px;
+}
+
+#onepage-restaurant {
   background-image: url(../img/onepage_restaurant.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh; 
-
-
-
-   
-    justify-content: center;
-    position: relative;
- 
-    background-position: center;
-  
- 
-    width: 100vw;
-  }
+  background-size: 300px;
+  height: 40vh;
+  background-color: rgb(116, 50, 50);
+top: 100px;
+}
 
 
 
 
 
-#map{
+#map {
   background-image: url(../img/map.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh; 
+  height: 75vh;
 }
 
 #main p {
   font-size: 20px;
   color: rgb(29, 27, 26);
   background-color: #f1e8e8;
- 
+
   text-align: justify;
   margin: right 50px;
   margin: left 50px;
@@ -213,18 +215,23 @@ main nav {
   /*  flexbox pour aligner horizontalement les éléments */
   justify-content: space-evenly;
   align-items: center;
- 
+
   margin: left 12px;
   ;
 }
 
+.petitsenfants1 span {
+  background-color: crimson;
+}
 
 
 .petitsenfants1 {
-  background-color: crimson;
+
   font-size: 25px;
-  padding-top: 5px; /* Ajustez cette valeur pour réduire la hauteur du fond rouge */
-  padding-bottom: 5px; /* Ajustez cette valeur pour réduire la hauteur du fond rouge */
+  padding-top: 5px;
+  /* Ajustez cette valeur pour réduire la hauteur du fond rouge */
+  padding-bottom: 5px;
+  /* Ajustez cette valeur pour réduire la hauteur du fond rouge */
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -235,11 +242,13 @@ main nav {
   font-size: 25px;
   padding: 10px;
 }
-#about{
+
+#about {
   color: antiquewhite;
   background-color: rgb(116, 50, 50);
   font-size: 50px;
-  padding: bottom 100px; ;
+  padding: bottom 100px;
+  ;
 }
 
 #about p {
@@ -254,44 +263,70 @@ main nav {
   padding-top: 0px;
 
 }
-#menu p,h3,h4{
+
+#tarifs p,
+h4 {
+
+  color: hsl(163, 78%, 2%);
+  background-color: #ebe6e5;
+
+
+}
+
+.tarifs p,
+h4 {
   background-color: white;
-color: hsl(0, 4%, 5%);
-font-size: 25px;
+
+
+
+  font-size: 25px;
+
 }
-#menu p,h4{
-text-align: left;
+
+#menu p,
+h4 {
+  text-align: left;
 
 
 }
-#menu h4{
-  color: #b3b8b8c0;
+
+.tarifs h3 {
+  text-align: right;
+
+  color: antiquewhite;
 }
-#menu h3{
-text-align: right;
-background-color: #0e0d0d00;
-color: antiquewhite;
-}
+
 #enfant1 {
   padding-bottom: 100px;
   padding-top: 100px;
-display: flex;
-justify-content: center;
-align-items: normal;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
 }
-#the-chef h3,h4{
+
+.tarifs span {
+  background-color: #0c0c0c;
+}
+
+.the-chef,
+h6 {
   color: antiquewhite;
   background-color: rgb(116, 50, 50);
-}
-#contact{
-background-color: #5c6663;
-
-
-
-
-
+  font-size: 25px;
+  font-weight: 400;
 }
 
+#contact {
+  background-color: #5c6663;
+
+
+
+
+
+}
+.the-chef span{
+  font-weight:bolder;
+}
 
 
 
